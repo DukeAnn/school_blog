@@ -3,7 +3,7 @@
     <head>
         <title>错误，无权限执行该操作</title>
 
-        <link href="https://fonts.useso.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+        <link href="https://fonts.lug.ustc.edu.cn/css?family=Lato:100" rel="stylesheet" type="text/css">
 
         <style>
             html, body {

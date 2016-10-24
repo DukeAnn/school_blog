@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="{{ asset('template/Beetle/css/layers.min.css') }}" media="screen">
     <link rel="stylesheet" href="{{ asset('template/Beetle/css/font-awesome.min.css') }}" media="screen">
     <link rel="stylesheet" href="{{ asset('template/Beetle/style.css') }}" media="screen">
-    <link href='http://fonts.useso.com/css?family=Montserrat:400,700|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.lug.ustc.edu.cn/css?family=Montserrat:400,700|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
     <!--[if lt IE 9]>
     <script src="{{ asset('template/Beetle/respond.min.js') }}"></script>
     <![endif]-->
@@ -26,7 +26,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('template/Beetle/img/apple-touch-icon-76x76.png') }}">
     <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('template/Beetle/img/apple-touch-icon-120x120.png') }}">
     <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('template/Beetle/img/apple-touch-icon-152x152.png') }}">
-    <script src="http://libs.useso.com/js/jquery/1.8.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/jquery/1.8.3/jquery.min.js"></script>
 
     @yield('header')
 </head>

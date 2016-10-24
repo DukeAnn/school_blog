@@ -22,7 +22,7 @@
     <title>ADKi博客后台管理系统</title>
 
     {{--360前端字体库--}}
-    {{--<link rel="stylesheet" href="http://fonts.useso.com/css?family=Arimo:400,700,400italic">--}}
+    {{--<link rel="stylesheet" href="http://fonts.lug.ustc.edu.cn/css?family=Arimo:400,700,400italic">--}}
     <link rel="stylesheet" href="{{ asset('assets/css/fonts/linecons/css/linecons.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/fonts/fontawesome/css/font-awesome.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.css') }}">
