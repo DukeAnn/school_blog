@@ -12,6 +12,7 @@
 配置laravel框架的配置文件
 
 首先把`app/Providers/AppServiceProvider.php`文件中
+
 ```$seo_index = Seo::findOrFail(1);
 $seo_photography = Seo::findOrFail(2);
 $seo_blog = Seo::findOrFail(3);
@@ -21,6 +22,7 @@ view()->share('seo_photography',$seo_photography);
 view()->share('seo_blog',$seo_blog);
 view()->share('links',$links);
 ```
+
 这段代码剪切出来，执行完下面的命令后再粘贴回去
 执行laravel数据库表创建命令
 `php artisan migrate`
@@ -28,5 +30,4 @@ view()->share('links',$links);
 `php artisan db:seed`
 
 执行完成之后访问网址，享受自己的博客平台吧！！！
-
 默认用户名：adk@adki.me 密码：111111
