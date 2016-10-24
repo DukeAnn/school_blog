@@ -3,7 +3,7 @@
 如果有什么问题可以发我邮箱:adk@adki.me
 
 ##安装方法
-上传完往网站程序后对网站目录进行权限设置执行：
+上传完网站程序后对网站目录进行权限设置执行：
 ```shell
 $ chown www:www -R /home/wwwroot/blog.buger.cc
 ```
