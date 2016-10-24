@@ -30,4 +30,4 @@ view()->share('links',$links);
 `php artisan db:seed`
 
 执行完成之后访问网址，享受自己的博客平台吧！！！
-默认用户名：adk@adki.me 密码：111111
+
