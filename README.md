@@ -4,16 +4,19 @@
 
 ##安装方法
 上传完往网站程序后对网站目录进行权限设置执行：
-`chown www:www -R /home/wwwroot/blog.buger.cc`
+```shell
+$ chown www:www -R /home/wwwroot/blog.buger.cc
+```
 
 进入网站目录，执行更新composer依赖：
-`composer update`
+```shell
+$ composer update
+```
 
 配置laravel框架的配置文件
-
-首先把`app/Providers/AppServiceProvider.php`文件中
-
-```$seo_index = Seo::findOrFail(1);
+首先把`app/Providers/AppServiceProvider.php`文件中：
+```php
+$seo_index = Seo::findOrFail(1);
 $seo_photography = Seo::findOrFail(2);
 $seo_blog = Seo::findOrFail(3);
 $links = Link::all();
@@ -25,9 +28,18 @@ view()->share('links',$links);
 
 这段代码剪切出来，执行完下面的命令后再粘贴回去
 执行laravel数据库表创建命令
-`php artisan migrate`
+
+```shell
+$ php artisan migrate
+```
+
 执行laravel数据填充命令
-`php artisan db:seed`
+
+```shell
+$ php artisan db:seed
+```
 
 执行完成之后访问网址，享受自己的博客平台吧！！！
+
+默认用户名：adk@adki.me 密码：111111
 
