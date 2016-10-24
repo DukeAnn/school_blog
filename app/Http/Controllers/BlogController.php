@@ -91,7 +91,7 @@ class BlogController extends Controller
     }
 
     public function index(){
-        $admin = User::findOrFail(2);
+        $admin = User::findOrFail(1);
         return view(config('blog.theme').'/index',['admin' => $admin]);
     }
 }
