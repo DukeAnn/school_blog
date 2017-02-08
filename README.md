@@ -7,7 +7,12 @@
 ##安装方法
 上传完网站程序后对网站目录进行权限设置执行：
 ```shell
-$ chown www:www -R /home/wwwroot/blog.buger.cc
+$ chown www:www -R 你的项目所在目录
+
+例如：我的目录是/home/liangzhi/桌面/html/my/laravel-blog-demo,www-data为运行apache的用户
+
+$ chown www-data:www-data -R /home/liangzhi/桌面/html/my/laravel-blog-demo
+
 ```
 
 进入网站目录，执行更新composer依赖：
@@ -29,6 +34,17 @@ view()->share('links',$links);
 ```
 
 这段代码剪切出来，执行完下面的命令后再粘贴回去
+
+
+修改数据库用户与密码
+
+```shell
+$  cp .env.example  .env
+```
+
+将.env中的数据库名字，数据库用户，密码修改成你环境的配置
+
+
 执行laravel数据库表创建命令
 
 ```shell
@@ -40,8 +56,15 @@ $ php artisan migrate
 ```shell
 $ php artisan db:seed
 ```
+重新生成密钥
+
+```shell
+$ php artisan key:generat
+```
+
+
+
 
 执行完成之后访问网址，享受自己的博客平台吧！！！
 
 默认用户名：adk@adki.me 密码：111111
-
